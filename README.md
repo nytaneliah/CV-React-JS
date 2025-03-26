@@ -10,6 +10,8 @@ Ce dépôt contient le code source du site portfolio de John Doe, un développeu
 - React Icons
 - Hébergement sur CodeSandbox
 
+**Validation W3C dans le fichier W3C.png**
+
 ## 📦 Installation
 
 ### 1. Cloner le dépôt

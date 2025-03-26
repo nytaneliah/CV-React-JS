@@ -1,6 +1,6 @@
 # John Doe - Portfolio
 
-Ce dépôt contient le code source du site portfolio de John Doe, un développeur web fictif. Le site est réalisé avec React.js et Bootstrap et est hébergé sur [CodeSandbox]([https://codesandbox.io/](https://codesandbox.io/p/sandbox/wonderful-solomon-ncq7r8)).
+Ce dépôt contient le code source du site portfolio de John Doe, un développeur web fictif. Le site est réalisé avec React.js et Bootstrap et est hébergé sur [CodeSandbox](https://codesandbox.io/p/sandbox/wonderful-solomon-ncq7r8).
 
 ## 🚀 Technologies utilisées
 

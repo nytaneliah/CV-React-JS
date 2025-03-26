@@ -1,0 +1,50 @@
+.banner {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.realisations-main {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.realisations-main h1 {
+  font-size: 2rem;
+}
+
+.blue-line {
+  width: 25%;
+  margin: 1rem auto;
+  border-top: 0.3rem solid var(--highlightColor);
+}
+
+.realisations-main .card-title {
+  color: var(--titleColor);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.realisations-main .card-text {
+  color: var(--textColor);
+  font-size: 1rem;
+}
+
+.realisations-main .btn-primary {
+  background-color: white;
+  border: none;
+  color: var(--highlightColor);
+  font-size: 0.9rem;
+  border: 0.1rem solid var(--highlightColor);
+}
+
+.realisations-main .btn-primary:hover {
+  background-color: var(--highlightColor);
+  color: white;
+}
+
+.realisations-main .card-footer {
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+}

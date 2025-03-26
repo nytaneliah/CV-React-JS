@@ -1,0 +1,53 @@
+.banner {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-main {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.blog-main h1 {
+  font-size: 2rem;
+}
+
+.blue-line {
+  width: 25%;
+  margin: 1rem auto;
+  border-top: 0.3rem solid var(--highlightColor);
+}
+
+.blog-main .card {
+  text-align: left;
+}
+
+.blog-main .card-title {
+  color: var(--titleColor);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.blog-main .card-text {
+  color: var(--textColor);
+  font-size: 1rem;
+}
+
+.blog-main .btn-primary {
+  background-color: var(--highlightColor);
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  border: 0.1rem solid var(--highlightColor);
+}
+
+.blog-main .btn-primary:hover {
+  background-color: #298eff;
+}
+
+.blog-main .card-footer {
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,30 @@
+.github-profile {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.github-profile img {
+  margin-bottom: 2rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.github-profile p {
+  font-size: 1.2em;
+}
+
+.github-profile a {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  background-color: var(--highlightColor);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.github-profile a:hover {
+  background-color: #298eff;
+}

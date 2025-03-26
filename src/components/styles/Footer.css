@@ -1,0 +1,142 @@
+.footer {
+  background-color: var(--footerBgColor);
+  padding: 1rem 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+  width: 90%;
+}
+
+.footer-column {
+  text-align: left;
+  flex: 1;
+}
+
+.footer h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--textColor);
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.liIcon {
+  color: var(--highlightColor);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--textColor);
+  transition: color 0.3s ease;
+}
+
+.footer .scroll-link,
+.footer .scroll-link:hover {
+  color: var(--textColor);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover,
+.footer .scroll-link:hover {
+  color: var(--highlightColor);
+  cursor: pointer;
+}
+
+.footer-icons a {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: var(--textColor);
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-icons a:hover {
+  color: var(--highlightColor);
+}
+
+.footer-bottom {
+  background-color: var(--titleColor);
+  color: white;
+  text-align: center;
+  padding: 0.8rem 0;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.footer-scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
+  background-color: var(--highlightColor);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-scroll-to-top.show {
+  display: flex;
+  opacity: 0.3;
+}
+
+.footer-scroll-to-top:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  background-color: #298eff;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-column {
+    flex: 1 1 50%;
+    max-width: 50%;
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .footer-icons a {
+    font-size: 1rem;
+  }
+}

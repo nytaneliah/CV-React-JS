@@ -27,6 +27,7 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  padding-right: 5%;
 }
 
 .navbar ul {
@@ -67,7 +68,6 @@
   flex-direction: column;
   cursor: pointer;
   font-size: 1.7rem;
-  padding-right: 5%;
 }
 
 .burger-icon:hover {
